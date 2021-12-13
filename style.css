@@ -1,40 +1,38 @@
 * {
   box-sizing: border-box;
   margin: 0;
+  padding: 0;
   font-family: 'Inconsolata', monospace;
 }
 
 body {
   background-image: url(images/vaporPaper.jpg);
+  background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 header {
-  background-image: linear-gradient(-225deg, #B6CEE8 0%, #F578DC 100%);
-  box-shadow: 5px 5px 5px 4px #0E1D2F;
+  background-image: linear-gradient(-225deg, #b6cee8 0%, #f578dc 100%);
+  box-shadow: 5px 5px 5px 4px #0e1d2f;
 }
 
 nav {
-  padding: 0 .5rem 0 .5rem;
+  padding: 0 0.5rem 0 0.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.logo {
-  max-height: 80px;
 }
 
 ul {
   display: flex;
   align-items: center;
   list-style: none;
-  gap: .6rem;
+  gap: 0.6rem;
 }
 
 ul li {
-  padding: .4rem;
+  padding: 0.4rem;
   font-weight: bold;
   line-height: 0px;
   font-size: 20px;
@@ -51,3 +49,67 @@ header a {
   text-decoration: none;
 }
 
+.logo {
+  max-height: 80px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 100px;
+  gap: 8rem;
+  font-size: 40px;
+  color: white;
+  text-shadow: 0 1px 0 #cccccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
+    0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
+    0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2),
+    0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2),
+    0 20px 20px rgba(0, 0, 0, 0.15);
+  height: 820px;
+}
+
+.eyesPng {
+  height: 185px;
+  box-shadow: 5px 5px 5px 5px #0e1d2f;
+  -moz-transform: rotate(8deg);
+  -webkit-transform: rotate(8deg);
+  -o-transform: rotate(8deg);
+  -ms-transform: rotate(8deg);
+  transform: rotate(8deg);
+}
+
+/* main {
+
+} */
+
+.whiteContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  background-color: aliceblue;
+  height: 550px;
+  color: black;
+  font-size: 16px;
+}
+
+.computerPng {
+  height: 200px;
+}
+
+.about {
+  width: 580px;
+}
+
+.projects {
+  background: url(images/clouds.png);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 950px;
+}
