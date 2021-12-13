@@ -24,14 +24,14 @@ nav {
   align-items: center;
 }
 
-ul {
+header ul {
   display: flex;
   align-items: center;
   list-style: none;
   gap: 0.6rem;
 }
 
-ul li {
+header ul li {
   padding: 0.4rem;
   font-weight: bold;
   line-height: 0px;
@@ -103,13 +103,21 @@ header a {
   width: 580px;
 }
 
-.projects {
+.gallery {
   background: url(images/clouds.png);
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
+  height: 900px;
+
   display: flex;
+  gap: 2rem;
   justify-content: center;
   align-items: center;
-  height: 950px;
+}
+
+.gallery img {
+  width: 300px;
+  height: 390px;
+  box-shadow: 5px 5px 5px 6px #0e1d2f;
 }
